@@ -24,6 +24,12 @@ input, textarea, select {
 	width: 100%;
 	max-width: 100%;
 }
+p {
+	margin-bottom: 5px;
+}
+select {
+	margin-left: 10px;
+}
 
 .legend {
 	margin-bottom: 10px;
