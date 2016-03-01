@@ -3,12 +3,66 @@
 	<head>
 		<title></title>
 		<link rel="stylesheet" type="text/css" href="css/reset.css"/>
+		<link rel="stylesheet" type="text/css" href="css/styles.css"/>
 	</head>
 	<body>
 		<div id="form-wrapper">
 			<form id="sign-up-form">
 				<div id="sign-up">
+					<h1>Sign Up Now!<span>Sign up and tell me what you think of my site!</span></h1>
+				</div>
+
+				<div class="section"><span>1</span>First Name & Address</div>
+				<div id="name-address-wrapper">
+					<label>Your full name
+						<!-- "name" will be used for javascript -->
+						<input type="text" name="fullName" placeholder="Your full name" value=""></input>
+					</label>			
 					
+					<label>Address
+						<input type="text" name="address1" placeholder="Address" value=""></input>
+					</label>
+				</div>
+				
+				<div class="section"><span>2</span>Email & Phone</div>
+				<div id="email-wrapper">
+					<label>Email
+						<input type="email" name="email" placeholder="Email" value></input>
+					</label>
+				</div>
+				<div id="phone-wrapper">
+					<label>Phone
+						<input type="phone" name="phoneNumber" placeholder="Phone Number" value></input>
+					</label>
+				</div>
+				
+				<div class="section"><span>3</span>Password</div>
+				<div id="password-wrapper">
+					<label>Password
+						<input type="password" name="password" placeholder="Password" value></input>
+					</label>
+				</div>
+				<div id="confirm-password-wrapper">
+					<label>Confirm Password
+						<input type="password" name="confirmPassword" placeholder="Confirm Password" value></input>
+					</label>
+				</div>
+				
+				<div class="section"><span>4</span>Skills</div>
+				<div id="skills-wrapper">
+					<label>My Tech Skills
+						<input type="text" name="techSkills" placeholder="My Technical Skills" value></input>
+					</label>
+					<label>My Age
+						<input type="number" name="age" placeholder="My Age" value></input>
+					</label>
+				</div>
+				
+				<div id="button-wrapper">
+					<input type="submit" value="Sign Me Up!">
+					<span class="privacy">
+						<input type="checkbox" name="privacy">I agree to the terms and policies
+					</span>
 				</div>
 			</form>
 		</div>
